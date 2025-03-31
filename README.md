@@ -277,7 +277,7 @@ int main(int argc, char* argv[]) {
 ### PoC
 
 ##### Output File Not Tampered
-![Alt text](Images/Screenshot%20from%202025-03-31 20-25-57.png)
+![Alt text](Images/Screenshot%20from%202025%2D03%2D31%2020%2D25%2D57.png)
 ##### Output File Tampered
 
 - Original `op.txt` 
