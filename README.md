@@ -257,36 +257,36 @@ int main(int argc, char* argv[]) {
 
 ### Development Environment
 
-![Alt text]("Images/Pasted image 20250331201605.png")
+![Alt text](Images/Pasted%20image%2020250331201605.png)
 
 ### Directory Hierarchical
 
-![[Pasted image 20250331201721.png]]
+![Alt text](Images/Pasted%20image%2020250331201721.png)
 
 - `input/ip.txt` : File with the input text
-	![[Pasted image 20250331202126.png]]
+	![Alt text](Images/Pasted%20image%2020250331202126.png)
 
 - `output/op.txt`: File with the output txt
-	![[Pasted image 20250331202211.png]]
+	![Alt text](Images/Pasted%20image%2020250331202211.png)
 
 - `key/key.txt` : File with the XOR key
-	![[Pasted image 20250331202245.png]]
+	![Alt text](Images/Pasted%20image%2020250331202245.png)
 
 - `main` : Main executable binary
 - `main.cpp` : Source code
 ### PoC
 
 ##### Output File Not Tampered
-![[Screenshot from 2025-03-31 20-25-57.png]]
+![Alt text](Images/Screenshot%20from%202025-03-31 20-25-57.png)
 ##### Output File Tampered
 
 - Original `op.txt` 
-	![[Pasted image 20250331215634.png]]
+	![Alt text](Images/Pasted%20image%2020250331215634.png)
 
 - Tampered `op.txt`
-	![[Pasted image 20250331215706.png]]
+	![Alt text](Images/Pasted%20image%2020250331215706.png)
 
-![[Pasted image 20250331215737.png]]
+![Alt text](Images/Pasted%20image%2020250331215737.png)
 
 ### Important Note
 The `std::hash` used is not recommenced since it records more collisions when compared to SHA-256. Also the library will not generate same hash for different environments or systems, so kindly attempt to enter the password `"averystrongpassword"` when prompted for the password, if it does'nt work, copy the hash generated and paste it in the `cmp` instruction on the right hand side. 
