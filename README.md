@@ -261,7 +261,7 @@ int main(int argc, char* argv[]) {
 
 ### Directory Hierarchical
 
-![Alt text](Images/Screenshot%20from%202025%2D03%2D31%2022%2D27%2D10.png)
+![Alt text](Images/tree.png)
 
 - `input/ip.txt` : File with the input text
 	![Alt text](Images/Pasted%20image%2020250331202126.png)
