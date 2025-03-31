@@ -257,7 +257,7 @@ int main(int argc, char* argv[]) {
 
 ### Development Environment
 
-![Alt text](Pasted image 20250331201605.png)
+![Alt text](Images/Pasted image 20250331201605.png)
 
 ### Directory Hierarchical
 
